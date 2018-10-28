@@ -1,0 +1,26 @@
+{
+  "name": "whismile_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "forever start api",
+    "stop" : "forever stop api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcgwebtech/whismile_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcgwebtech/whismile_web/issues"
+  },
+  "homepage": "https://github.com/kcgwebtech/whismile_web#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "forever": "^0.15.3"
+  }
+}
