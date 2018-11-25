@@ -20,9 +20,11 @@
   },
   "homepage": "https://github.com/kcgwebtech/whismile_web#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.4",
     "forever": "^0.15.3",
     "jade": "^1.11.0",
+    "jsonwebtoken": "^8.4.0",
     "mysql2": "^1.6.1",
     "sequelize": "^4.41.0"
   }

@@ -1,0 +1,6 @@
+{
+  "secret" : "test",
+  "refreshSecret" : "refreshTest",
+  "tokenExpire": "5m",
+  "refreshTokenExpire": "24h"
+}
