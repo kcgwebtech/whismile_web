@@ -17,7 +17,6 @@ app.get('/testAPI', (req, res) => {
 });
 
 app.use('/auth', require('./auth'));
-app.use('/boards', require('./boards'));
 
 app.listen(port); // port로 서버 열기
 console.log('start server with 8888!');
